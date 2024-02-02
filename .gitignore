@@ -1,0 +1,11 @@
+# Ignora el archivo "config.json"
+config.json
+
+# Segunda forma de ignorar lo que está dentro de bin ignorando absolutamente todo lo que hay dentro de esta carpeta
+/bin/* 
+
+# De esta manera se ignoran todas las carpetas nietas de libs con el nombre de "node_modules"    
+/libs/*/node_modules
+
+# Ignora todo archivo del proyecto que contenga la extección ".class"
+/src/*/*.class
